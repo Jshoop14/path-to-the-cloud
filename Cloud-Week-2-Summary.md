@@ -20,3 +20,6 @@ We used AWS CLI commands to create an S3 bucket and upload objects:
 - **Create a new S3 bucket:**
   ```bash
   aws s3 mb s3://[cloud-bootcamp]
+  aws s3 cp [C:\Users\jshoo\Documents\test] s3://[cloud-bootcamp]
+
+
