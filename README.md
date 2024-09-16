@@ -10,3 +10,10 @@ This repository contains my projects and weekly summaries from the 13-week cloud
 - Example cloud infrastructure projects, such as setting up AWS S3 storage, EC2 instances, and Azure VM provisioning.
 - Collaboration-ready projects for co-workers and cloud teams.
 - Real-world use cases such as cloud automation, infrastructure-as-code, and security implementations.
+
+## Installation
+
+To clone the repository:
+
+```bash
+git clone https://github.com/Jshoop14/cloud-bootcamp.git
