@@ -62,3 +62,8 @@ This week, we focused on comparing three different architectural styles: **Monol
 - **Serverless Architecture** excels in handling variable traffic loads and minimizing infrastructure management, making it cost-effective for smaller projects with unpredictable workloads.
 
 Each architectural style has its strengths and weaknesses, and the right choice depends on the size, complexity, and traffic patterns of the application.
+
+---
+
+## Link to the visual architecture and flow - https://excalidraw.com/#json=gwtDxpP4gWMNg_q_ZkKEv,P3H7VOdSQJKMSoiWsT7u_g
+
