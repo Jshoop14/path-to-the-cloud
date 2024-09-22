@@ -7,4 +7,4 @@ During Week 5 and 6, we focused on designing and implementing a secure and highl
 In this exercise, we designed a secure VPC architecture with high availability across two Availability Zones (AZs), utilizing various AWS services such as EC2, NAT Gateways, Internet Gateways, and DynamoDB.
 
 For the complete exercise, please see the dedicated VPC Architecture section:
-[VPC Architecture Exercise](./VPC-Architecture-Exercise.md)
+[VPC Architecture Exercise](./VPC-Arcitecture-Exercise.md)
