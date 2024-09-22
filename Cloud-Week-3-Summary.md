@@ -1,4 +1,4 @@
-# Week 3: Comparison of Monolithic, Microservices, and Serverless Architectures
+# Week 3: System Design Applications
 
 This week, we focused on comparing three different architectural styles: **Monolithic**, **Microservices**, and **Serverless**. We evaluated them based on key criteria such as scalability, development complexity, deployment, maintenance, and cost implications. Below is a detailed comparison, along with the suitability of each architecture for different types of projects.
 
