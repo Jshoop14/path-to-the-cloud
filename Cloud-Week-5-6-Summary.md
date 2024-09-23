@@ -1,6 +1,5 @@
-# Week 5 & 6: AWS VPC Architecture and Exercises
+# Week 5 & 6: AWS and Azure Fundamentals 
 
-During Week 5 and 6, we focused on designing and implementing a secure and highly available VPC architecture in AWS. This architecture includes public and private subnets, NAT gateways, and secure access for web and database tiers.
 
 ## VPC Architecture Design Exercise
 
