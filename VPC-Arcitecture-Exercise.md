@@ -23,4 +23,4 @@ The objective of this exercise was to design and implement a secure and highly a
 - **Security**: Databases reside in private subnets, shielded from direct internet access, with access restricted to the application servers.
 - **Scalability**: The VPC design allows for easy scaling by adding more subnets or modifying CIDR ranges.
 
-[VPC Architecture Exercise](./VPC-Arcitecture-Exercise-2.md)
+[VPC Architecture Exercise](./VPC-Architecture-Exercise-2.md)
