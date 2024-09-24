@@ -38,37 +38,13 @@
 This exercise emphasized creating a secure and scalable VPC setup in AWS with bastion hosts, public and private subnets, NAT gateways, and proper security configurations to control traffic and access.
 
 
-## VPC Architecture Design Exercise
+## VPC Architecture Design Exercise 1 and 2
 
-In this exercise, we designed a secure VPC architecture with high availability across two Availability Zones (AZs), utilizing various AWS services such as EC2, NAT Gateways, Internet Gateways, and DynamoDB.
+In these exercises, we designed a secure VPC architecture with high availability across two Availability Zones (AZs), utilizing various AWS services such as EC2, NAT Gateways, Internet Gateways, and DynamoDB.
+In the Second Exercise we built the VPC in AWS based off of exercise 1
 
 For the complete exercise, please see the dedicated VPC Architecture section:
 [VPC Architecture Exercise](./VPC-Arcitecture-Exercise.md)
 
-## VPC Project in AWS Exercise 2
-**Objective**: Create a secure VPC architecture based on the designed diagram from earlier.
 
-1. **Created the VPC**:
-   - Launched a **bastion host** to securely connect to instances in private subnets.
-   - **Key pair** created to authenticate the connection.
-   - Selected the **public subnet 1** for bastion, ensuring it has a public IP assigned.
-   - **Security Group**: Configured to allow SSH access from the local IP.
 
-2. **Connected to EC2 Instance**:
-   - **Public IP** for the bastion host was grabbed, and SSH was initiated from the local machine.
-
-3. **Testing VPC Connectivity**:
-   - Deleted the route from **public subnet 1** to the **Internet Gateway** and tested if the instance could be accessed (could not).
-   - Re-added the route, and the connection was successful again.
-
-4. **Private Subnet EC2 Instances**:
-   - Launched EC2 instances in **private subnets** 1 and 2.
-   - For simplicity, used the **bastion host's key pair** to connect to them.
-   - Security groups allowed SSH access between the bastion and the private instances.
-
-5. **Verifying Communication**:
-   - Pinged **EC2App2** from **EC2App1** to verify internal communication between private subnets.
-   - Removed security group permissions between the two instances, verifying that they could no longer communicate (ping failed).
-   
-6. **Termination**:
-   - Terminated the instances to prevent unnecessary costs.
