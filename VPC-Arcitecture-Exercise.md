@@ -1,4 +1,4 @@
-# VPC Architecture Design Exercise (Weeks 5 & 6)
+# VPC Architecture Design Exercise 1 and 2(Weeks 5 & 6)
 
 ## Objective
 The objective of this exercise was to design and implement a secure and highly available VPC architecture in AWS. The application needed a public-facing web component, while the backend database needed to be secured in private subnets.
@@ -22,3 +22,5 @@ The objective of this exercise was to design and implement a secure and highly a
 - **High Availability**: By distributing public and private subnets across two AZs, we ensure redundancy and fault tolerance.
 - **Security**: Databases reside in private subnets, shielded from direct internet access, with access restricted to the application servers.
 - **Scalability**: The VPC design allows for easy scaling by adding more subnets or modifying CIDR ranges.
+
+(./VPC-Arcitecture-Exercise-2.md)
