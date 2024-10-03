@@ -37,6 +37,3 @@ Resources:
 4. Verified the creation of the **S3 bucket** in AWS:
    - The bucket was successfully created with private access control as specified in the YAML template.
    - Managed and monitored the CloudFormation stack using the AWS Console and CLI.
-
-## Next Steps
-Moving forward, I plan to explore more advanced CloudFormation features and dive into using **Terraform** as another infrastructure-as-code tool.
