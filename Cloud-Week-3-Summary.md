@@ -65,5 +65,3 @@ Each architectural style has its strengths and weaknesses, and the right choice 
 
 ---
 
-## Link to the visual architecture and flow - https://excalidraw.com/#json=gwtDxpP4gWMNg_q_ZkKEv,P3H7VOdSQJKMSoiWsT7u_g
-
