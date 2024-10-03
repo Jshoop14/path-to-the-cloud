@@ -11,6 +11,8 @@ This week, we focused on comparing three different architectural styles: **Monol
 - **Maintenance**: Maintenance becomes difficult as the application grows due to tight coupling between components.
 - **Cost Implications**: Lower upfront costs but higher infrastructure costs when scaling due to the limitations of vertical scaling.
 
+![Monolithic](./images/Monolithic.png)
+
 **Best For**: 
 - Small-scale projects with stable and predictable traffic.
 - Applications with low complexity where development speed is the priority.
@@ -24,6 +26,8 @@ This week, we focused on comparing three different architectural styles: **Monol
 - **Maintenance**: Easier to maintain than monolithic applications due to service isolation, but requires strong monitoring and logging.
 - **Cost Implications**: More cost-efficient than monolithic in terms of scaling, but higher initial development costs due to the need for a distributed system setup.
 
+![Microservices](./images/Microservices.png)
+
 **Best For**:
 - Large-scale applications with high complexity.
 - Projects with variable traffic loads and frequent updates.
@@ -36,6 +40,8 @@ This week, we focused on comparing three different architectural styles: **Monol
 - **Deployment**: Quick and easy to deploy functions independently, making it ideal for continuous delivery.
 - **Maintenance**: Minimal, as the infrastructure is fully managed by the cloud provider. 
 - **Cost Implications**: Very cost-efficient for applications with variable or sporadic traffic, as you only pay for the resources consumed.
+
+![Serverless](./images/Serverless.png)
 
 **Best For**:
 - Small to medium-scale projects with variable or unpredictable loads.
