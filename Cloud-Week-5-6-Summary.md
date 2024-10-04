@@ -34,10 +34,6 @@
   - **Permissions & Policies**: Define what actions users and roles can perform in AWS.
   - **Identity Federation**: Allows users to log in using external identity providers (e.g., Google, Active Directory).
 
-## Conclusion:
-This exercise emphasized creating a secure and scalable VPC setup in AWS with bastion hosts, public and private subnets, NAT gateways, and proper security configurations to control traffic and access.
-
-
 ## VPC Architecture Design Exercise 1 and 2
 
 In these exercises, we designed a secure VPC architecture with high availability across two Availability Zones (AZs), utilizing various AWS services such as EC2, NAT Gateways, Internet Gateways, and DynamoDB.
