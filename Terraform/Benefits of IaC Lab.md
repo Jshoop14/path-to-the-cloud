@@ -45,3 +45,5 @@ This lab walks through the process of deploying and managing AWS infrastructure 
 - **Automation**: Automates the deployment of cloud resources, saving time and reducing manual errors.
 - **Idempotency**: Ensures that applying changes multiple times yields the same result, making changes predictable and consistent.
 - **Scalability**: Using Terraform, deploying infrastructure across multiple environments or accounts becomes efficient and repeatable.
+
+**Note**: Remember to add `.terraform/`, `terraform.tfstate`, `terraform.tfstate.backup`, and `Benefits of IaC Lab.md` to your `.gitignore` file to avoid committing sensitive state information and unnecessary files.
