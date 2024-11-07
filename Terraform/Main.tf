@@ -139,6 +139,6 @@ resource "aws_instance" "web_server" {
   instance_type = "t3.micro"
   subnet_id     = aws_subnet.public_subnets["public_subnet_1"].id
   tags = {
-    Name = "Ubuntu EC2 Server"
+    Name = "Ubuntu EC2 Server 1"
   }
 }
